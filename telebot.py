@@ -46,7 +46,7 @@ class BotHandler:
         return True
     return False
 
-ripe_bot = BotHandler('697263182:AAEljlmqD5wGKO1q6eSb6_Sn710gIOWey0s')  
+ripe_bot = BotHandler('your_bot_token')  
 
 def main():  
   new_offset = None
