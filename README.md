@@ -1,5 +1,6 @@
 # Telebot
 Telegram Bot for sending maintenance alerts from RIPE GSM Autoprobe in https://github.com/draskolnikova/ripe-gsm
+Replace "your_bot_token" with your Telegram Bot token
 
 # How to use:
 Run the telebot.py script on a server to listen for incoming telegram requests. From your Telegram, add the RIPE Atlas Bot (@blripe_bot) and type "/start" to register your ID to chats list. The bot will broadcast notifications to all the IDs in chats list. 
